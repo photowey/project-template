@@ -1,0 +1,52 @@
+local:
+  config:
+    spring:
+      name: "${artifactId}"
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.19.250:3307/${artifactId}?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+    druid:
+      filters: stat,wall
+      initial-size: 1
+      max-active: 10
+      max-pool-prepared-statement-per-connection-size: 20
+      max-wait: 60000
+      min-idle: 5
+      pool-prepared-statements: true
+      stat-view-servlet:
+        enabled: true
+        login-password: druid
+        login-username: druid
+        reset-enable: true
+        url-pattern: /druid/*
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        # autoconfig & trace No mapping
+        # include: [health,info,beans,env,configprops,mappings,metrics]
+        include: "*"
+
+
+
+# custom the /actuator/info endpoint
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+  env:
+    actives: ${spring.profiles.active}
