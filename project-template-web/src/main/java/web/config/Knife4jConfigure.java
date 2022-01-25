@@ -1,4 +1,4 @@
-package ${package}.web.config;
+package ${__package__}.web.config;
 
 import com.github.xiaoymin.knife4j.spring.extension.OpenApiExtensionResolver;
 import org.springframework.context.annotation.Bean;
@@ -41,7 +41,7 @@ public class Knife4jConfigure {
                 .apiInfo(this.populateApiInfo(contact))
                 .groupName(group)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("${package}.web.controller"))
+                .apis(RequestHandlerSelectors.basePackage("${__package__}.web.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .extensions(openApiExtensionResolver.buildExtensions(group));

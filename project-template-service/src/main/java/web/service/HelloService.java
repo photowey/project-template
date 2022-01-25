@@ -1,8 +1,8 @@
-package ${package}.web.service;
+package ${__package__}.web.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import ${package}.core.domain.dto.HelloDTO;
-import ${package}.core.domain.entity.Hello;
+import ${__package__}.core.domain.dto.HelloDTO;
+import ${__package__}.core.domain.entity.Hello;
 
 /**
  * {@code HelloService}

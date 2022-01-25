@@ -1,6 +1,6 @@
-package ${package}.web.service.annotation;
+package ${__package__}.web.service.annotation;
 
-import ${package}.web.service.config.ServiceAutoConfigure;
+import ${__package__}.web.service.config.ServiceAutoConfigure;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

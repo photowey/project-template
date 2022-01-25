@@ -1,6 +1,6 @@
-package ${package}.web.repository.engine;
+package ${__package__}.web.repository.engine;
 
-import ${package}.web.repository.HelloRepository;
+import ${__package__}.web.repository.HelloRepository;
 
 /**
  * {@code IRepositoryEngine}

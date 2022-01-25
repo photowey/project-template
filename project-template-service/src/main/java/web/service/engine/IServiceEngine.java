@@ -1,6 +1,6 @@
-package ${package}.web.service.engine;
+package ${__package__}.web.service.engine;
 
-import ${package}.web.service.HelloService;
+import ${__package__}.web.service.HelloService;
 
 /**
  * {@code IServiceEngine}

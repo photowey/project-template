@@ -1,7 +1,7 @@
-package ${package}.web.repository.engine.impl;
+package ${__package__}.web.repository.engine.impl;
 
-import ${package}.web.repository.engine.IRepositoryEngine;
-import ${package}.web.repository.HelloRepository;
+import ${__package__}.web.repository.engine.IRepositoryEngine;
+import ${__package__}.web.repository.HelloRepository;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import org.springframework.beans.factory.annotation.Autowired;

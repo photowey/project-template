@@ -1,7 +1,7 @@
-package ${package}.web.service.engine.impl;
+package ${__package__}.web.service.engine.impl;
 
-import ${package}.web.service.HelloService;
-import ${package}.web.service.engine.IServiceEngine;
+import ${__package__}.web.service.HelloService;
+import ${__package__}.web.service.engine.IServiceEngine;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import org.springframework.beans.factory.annotation.Autowired;

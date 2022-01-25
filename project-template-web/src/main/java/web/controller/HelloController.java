@@ -1,8 +1,8 @@
-package ${package}.web.controller;
+package ${__package__}.web.controller;
 
-import ${package}.core.domain.dto.HelloDTO;
-import ${package}.web.service.HelloService;
-import ${package}.web.service.engine.IProjectEngine;
+import ${__package__}.core.domain.dto.HelloDTO;
+import ${__package__}.web.service.HelloService;
+import ${__package__}.web.service.engine.IProjectEngine;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

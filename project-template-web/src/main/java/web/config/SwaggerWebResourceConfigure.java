@@ -1,4 +1,4 @@
-package ${package}.web.config;
+package ${__package__}.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

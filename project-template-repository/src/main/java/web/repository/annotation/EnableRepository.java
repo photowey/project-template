@@ -1,6 +1,6 @@
-package ${package}.web.repository.annotation;
+package ${__package__}.web.repository.annotation;
 
-import ${package}.web.repository.config.RepositoryAutoConfigure;
+import ${__package__}.web.repository.config.RepositoryAutoConfigure;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

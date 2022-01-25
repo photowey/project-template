@@ -1,4 +1,4 @@
-package ${package}.client.config;
+package ${__package__}.client.config;
 
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
  * @date ${date}
  * @since ${version}
  */
-@ComponentScan("${package}.client")
-@EnableFeignClients(basePackages = "${package}.client.feign")
-@Configuration("${package}.client.config.${PROJECT}ClientAutoConfigure")
+@ComponentScan("${__package__}.client")
+@EnableFeignClients(basePackages = "${__package__}.client.feign")
+@Configuration("${__package__}.client.config.${PROJECT}ClientAutoConfigure")
 public class ${PROJECT}ClientAutoConfigure {
 }

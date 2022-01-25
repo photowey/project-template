@@ -1,6 +1,6 @@
-package ${package}.web.service.engine;
+package ${__package__}.web.service.engine;
 
-import ${package}.web.repository.engine.IRepositoryEngine;
+import ${__package__}.web.repository.engine.IRepositoryEngine;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.EnvironmentAware;

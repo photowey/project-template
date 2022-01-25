@@ -1,8 +1,8 @@
-package ${package}.web.service.engine.impl;
+package ${__package__}.web.service.engine.impl;
 
-import ${package}.web.service.engine.IProjectEngine;
-import ${package}.web.repository.engine.IRepositoryEngine;
-import ${package}.web.service.engine.IServiceEngine;
+import ${__package__}.web.service.engine.IProjectEngine;
+import ${__package__}.web.repository.engine.IRepositoryEngine;
+import ${__package__}.web.service.engine.IServiceEngine;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import org.springframework.beans.BeansException;

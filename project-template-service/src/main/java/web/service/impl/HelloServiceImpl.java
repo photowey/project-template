@@ -1,10 +1,10 @@
-package ${package}.web.service.impl;
+package ${__package__}.web.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import ${package}.core.domain.dto.HelloDTO;
-import ${package}.core.domain.entity.Hello;
-import ${package}.web.repository.HelloRepository;
-import ${package}.web.service.HelloService;
+import ${__package__}.core.domain.dto.HelloDTO;
+import ${__package__}.core.domain.entity.Hello;
+import ${__package__}.web.repository.HelloRepository;
+import ${__package__}.web.service.HelloService;
 import org.springframework.stereotype.Service;
 
 /**

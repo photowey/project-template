@@ -1,7 +1,7 @@
-package ${package}.web;
+package ${__package__}.web;
 
 import ${groupId}.cloud.platform.app.starting.printer.AppPrinter;
-import ${package}.web.service.annotation.EnableService;
+import ${__package__}.web.service.annotation.EnableService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
