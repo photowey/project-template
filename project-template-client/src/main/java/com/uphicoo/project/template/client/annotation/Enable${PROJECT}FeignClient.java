@@ -1,6 +1,6 @@
 package ${__package__}.client.annotation;
 
-import ${__package__}.client.config.ProjectTemplateClientAutoConfigure;
+import ${__package__}.client.config.${PROJECT}ClientAutoConfigure;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
