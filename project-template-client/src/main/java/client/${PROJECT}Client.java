@@ -1,8 +1,7 @@
-package $ import $;
-import org.springframework.stereotype.Component;
+package ${__package__}.client;
 
-{__package__}.client;
-        {__package__}.client.feign.${PROJECT}FeignClient;
+import ${__package__}.client.feign.${PROJECT}FeignClient;
+import org.springframework.stereotype.Component;
 
 /**
  * {@code ${PROJECT}Client}

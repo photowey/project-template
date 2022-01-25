@@ -1,4 +1,6 @@
-package $ import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
+package ${__package__}.web.config;
+
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -7,8 +9,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.sql.DataSource;
 import java.nio.charset.StandardCharsets;
-
-{__package__}.web.config;
 
 /**
  * {@code CommonConfigure}

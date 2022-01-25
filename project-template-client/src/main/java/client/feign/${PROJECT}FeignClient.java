@@ -1,6 +1,6 @@
-package $ import org.springframework.cloud.openfeign.FeignClient;
+package ${__package__}.client.feign;
 
-{__package__}.client.feign;
+import org.springframework.cloud.openfeign.FeignClient;
 
 /**
  * {@code ${PROJECT}FeignClient}
@@ -9,7 +9,7 @@ package $ import org.springframework.cloud.openfeign.FeignClient;
  * @date ${date}
  * @since ${version}
  */
-@FeignClient("${artifactId}")
+@FeignClient("${parentArtifactId}")
 public interface ${PROJECT}FeignClient {
 
     /**

@@ -1,6 +1,7 @@
-package $ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+package ${__package__}.web.repository;
 
-{__package__}.web.repository;{__package__}.core.domain.entity.Hello;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import ${__package__}.core.domain.entity.Hello;
 
 /**
  * {@code HelloRepository}

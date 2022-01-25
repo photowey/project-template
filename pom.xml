@@ -15,7 +15,7 @@
     <artifactId>${artifactId}</artifactId>
 
     <groupId>${groupId}</groupId>
-    <version>${__version__}</version>
+    <version>${version}</version>
 
     <name>${artifactId}</name>
     <description>${artifactId} project for Spring Boot</description>
@@ -44,17 +44,17 @@
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-client</artifactId>
-                <version>${__version__}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-core</artifactId>
-                <version>${__version__}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-repository</artifactId>
-                <version>${__version__}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>

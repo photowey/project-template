@@ -1,4 +1,9 @@
-package $ import lombok.Getter;
+package ${__package__}.web.service.engine.impl;
+
+import ${__package__}.web.service.engine.IProjectEngine;
+import ${__package__}.web.repository.engine.IRepositoryEngine;
+import ${__package__}.web.service.engine.IServiceEngine;
+import lombok.Getter;
 import lombok.experimental.Accessors;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
@@ -8,11 +13,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
-
-{__package__}.web.service.engine.impl;
-        {__package__}.web.service.engine.IProjectEngine;
-        {__package__}.web.repository.engine.IRepositoryEngine;
-        {__package__}.web.service.engine.IServiceEngine;
 
 /**
  * {@code ProjectEngine}

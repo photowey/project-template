@@ -8,7 +8,7 @@
     <parent>
         <groupId>${groupId}</groupId>
         <artifactId>${artifactId}</artifactId>
-        <version>${__version__}</version>
+        <version>${rootVersion}</version>
     </parent>
 
     <artifactId>${artifactId}-core</artifactId>

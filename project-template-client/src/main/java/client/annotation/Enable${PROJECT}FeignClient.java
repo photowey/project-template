@@ -1,8 +1,9 @@
-package $ import $;
+package ${__package__}.client.annotation;
+
+import ${__package__}.client.config.ProjectTemplateClientAutoConfigure;
 import org.springframework.context.annotation.Import;
 
-{__package__}.client.annotation;
-        {__package__}.client.config.ProjectTemplateClientAutoConfigure;
+import java.lang.annotation.*;
 
 /**
  * {@code Enable${PROJECT}FeignClient}

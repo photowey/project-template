@@ -1,15 +1,15 @@
-package $ import lombok.extern.slf4j.Slf4j;
+package ${__package__}.web.controller;
+
+import ${__package__}.core.domain.dto.HelloDTO;
+import ${__package__}.web.service.HelloService;
+import ${__package__}.web.service.engine.IProjectEngine;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-{__package__}.web.controller;
-        {__package__}.core.domain.dto.HelloDTO;
-        {__package__}.web.service.HelloService;
-        {__package__}.web.service.engine.IProjectEngine;
 
 /**
  * {@code HelloController}
