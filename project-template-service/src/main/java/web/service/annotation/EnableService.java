@@ -1,9 +1,7 @@
-package ${__package__}.web.service.annotation;
+package $ import org.springframework.context.annotation.Import;
 
-import ${__package__}.web.service.config.ServiceAutoConfigure;
-import org.springframework.context.annotation.Import;
-
-import java.lang.annotation.*;
+{__package__}.web.service.annotation;
+        {__package__}.web.service.config.ServiceAutoConfigure;
 
 /**
  * {@code EnableService}

@@ -1,8 +1,8 @@
-package ${__package__}.web;
-
-import lombok.extern.slf4j.Slf4j;
+package $ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+{__package__}.web;
 
 /**
  * {@code AppTests}

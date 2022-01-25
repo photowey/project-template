@@ -1,12 +1,12 @@
-package ${__package__}.core.domain.dto;
-
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+package $ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+
+{__package__}.core.domain.dto;
 
 /**
  * {@code HelloDTO}

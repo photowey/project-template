@@ -1,8 +1,8 @@
-package ${__package__}.web.service.config;
-
-import ${__package__}.web.repository.annotation.EnableRepository;
-import org.springframework.context.annotation.ComponentScan;
+package $ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+
+{__package__}.web.service.config;
+        {__package__}.web.repository.annotation.EnableRepository;
 
 /**
  * {@code ServiceAutoConfigure}

@@ -1,10 +1,10 @@
-package ${__package__}.web;
-
-import ${groupId}.cloud.platform.app.starting.printer.AppPrinter;
-import ${__package__}.web.service.annotation.EnableService;
-import org.springframework.boot.SpringApplication;
+package $ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+
+{__package__}.web;
+        {groupId}.cloud.platform.app.starting.printer.AppPrinter;
+        {__package__}.web.service.annotation.EnableService;
 
 @EnableService
 @SpringBootApplication

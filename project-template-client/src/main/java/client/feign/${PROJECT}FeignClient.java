@@ -1,6 +1,6 @@
-package ${__package__}.client.feign;
+package $ import org.springframework.cloud.openfeign.FeignClient;
 
-import org.springframework.cloud.openfeign.FeignClient;
+{__package__}.client.feign;
 
 /**
  * {@code ${PROJECT}FeignClient}
