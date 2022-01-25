@@ -1,2 +1,2 @@
-# project-template
-The Spring cloud project template
+# ${artifactId}
+The Spring cloud ${artifactId}
