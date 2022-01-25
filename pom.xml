@@ -8,7 +8,7 @@
     <parent>
         <groupId>${rootGroupId}</groupId>
         <!-- uphicoo-cloud-platform-parent -->
-        <artifactId>${rootArtifactId}-parent</artifactId>
+        <artifactId>${rootArtifactId}</artifactId>
         <version>${rootVersion}</version>
     </parent>
 
@@ -44,22 +44,22 @@
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-client</artifactId>
-                <version>${version}</version>
+                <version>${__version__}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-core</artifactId>
-                <version>${version}</version>
+                <version>${__version__}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-repository</artifactId>
-                <version>${version}</version>
+                <version>${__version__}</version>
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-service</artifactId>
-                <version>${version}</version>
+                <version>${__version__}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
